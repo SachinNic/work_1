@@ -1,0 +1,37 @@
+<div fxLayout="row" fxLayout="row wrap">
+    <div *ngFor="let dash of dashCard" fxFlex="25" fxFlex.lt-sm="100" fxFlex.sm="50">
+        <cda-dashcard [dashData]="dash"></cda-dashcard>
+    </div>
+</div>
+<div fxLayout="row" fxLayout="row wrap">
+    <cda-bar-graph fxFlex="37.5" fxFlex.lt-sm="100" fxFlex.sm="50"></cda-bar-graph>
+    <cda-doughnut-graph fxFlex="37.5" fxFlex.lt-sm="100" fxFlex.sm="50"></cda-doughnut-graph>
+    <cda-weather fxFlex="25" fxFlex.lt-sm="100" fxFlex.sm="100"></cda-weather>
+</div>
+<div fxLayout="row" fxLayout="row wrap">
+    <cda-line-graph fxFlex="75" fxFlex.lt-sm="100" fxFlex.sm="50"></cda-line-graph>
+    <cda-share-price fxFlex="25" fxFlex.lt-sm="100" fxFlex.sm="50"></cda-share-price>
+</div>
+<div fxLayout="row" fxLayout="row wrap">
+    <cda-sales-list fxFlex="60" fxFlex.lt-sm="100" fxFlex.sm="100" fxFlex.md="70"></cda-sales-list>
+    <cda-profile-card fxFlex="40" fxFlex.lt-sm="100" fxFlex.sm="100" fxFlex.md="30"></cda-profile-card>
+</div>
+
+<!--div fxLayout="row" fxLayout="row wrap">
+    <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+        <cda-round-progressbar [title]="'SALES'" [current]="'23'" [max]="'100'" [background]="'#FFF968'" [color]="'#B1A7FF'" [boxcolor]="'#7986CB'"></cda-round-progressbar>
+    </div>
+    <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+        <cda-round-progressbar [title]="'LEADS'" [current]="'33'" [max]="'100'" [background]="'#FFE268'" [color]="'#A7C1FF'" [boxcolor]="'#42A5F5'"></cda-round-progressbar>
+    </div>
+    <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+        <cda-round-progressbar [title]="'ASSETS'" [current]="'78'" [max]="'100'" [background]="'#FFC368'" [color]="'#A7F0FF'" [boxcolor]="'#26A69A'"></cda-round-progressbar>
+    </div>
+    <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+        <cda-round-progressbar [title]="'BANKING'" [current]="'90'" [max]="'100'" [background]="'#FFCF68'" [color]="'#A7DEFF'" [boxcolor]="'#26C6DA'"></cda-round-progressbar>
+    </div>
+</div>
+
+<div fxLayout="row" fxLayout="row wrap" >
+    <cda-world-map fxFlex="100" [tableData]="tableData"></cda-world-map>
+</div-->
